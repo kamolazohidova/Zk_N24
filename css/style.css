@@ -823,6 +823,7 @@ body {
 }
 
 .modal-content {
+    position: relative;
     background-color: #fff;
     padding: 50px;
     border-radius: 20px;
@@ -834,6 +835,20 @@ body {
     font-size: 26px;
     line-height: 34px;
     color: var(--accent-color);
+}
+
+.close-button {
+    position: absolute;
+    padding: 10px;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    background-color: transparent;
+}
+
+.modal-img {
+    width: 24px;
+    height: 24px;
 }
 
 
